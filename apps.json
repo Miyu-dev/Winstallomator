@@ -1,0 +1,14 @@
+{
+  "internetWaitSeconds": 600,
+  "apps": [
+    {
+      "name": "7-Zip 26.03 (64-bit)",
+      "url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-x64.msi",
+      "fallbackUrl": "https://www.7-zip.org/a/7z2301-x64.msi",
+      "fileName": "7z2603-x64.msi",
+      "installer": "msi",
+      "silentArgs": "/qn /norestart",
+      "detectionPath": "C:\\Program Files\\7-Zip\\7z.exe"
+    }
+  ]
+}
